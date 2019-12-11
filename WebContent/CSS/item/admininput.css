@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+
+
+
+
+/* .field{	width:90%;
+		position: absolute;
+		top : 10%;}
+
+
+.form-group>input{width:35%;}
+.form-group>select{width:35%;}
+.form-group>span{position: relative;
+				left : 65%;	}
+.control-label{font-size:17px;}
+ */
+
+	
+
+
+.submit{position: relative;
+		margin-left: 80%;}
+	
+								
+
+.filebox input[type="file"] { position: absolute; 
+								width: 1px; 
+	/* 파일 필드 숨기기 */ 			height: 1px; 
+								padding: 0; 
+								margin: -1px; 
+								overflow: hidden; 
+								clip:rect(0,0,0,0);
+								 border: 0; }
+
+.inputSpan{color:red;
+	position:relative;
+	top:8px;}
+	
+	
+.img_span{color:red;
+		position:relative;
+		bottom:10px;}	
+	
+	
+	
+	
+	
+	
+	

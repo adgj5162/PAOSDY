@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+
+.container-fluid {
+	position: relative;
+	clear: both;
+}
+
+#footer {
+	position: static;
+	bottom: 0;
+	align: right;
+}
+
+.order_font {
+	font-size: large;
+}
+
+#order_product {
+	text-align: center;
+}
+
+#total_pay_lcs1 {
+	font-weight: bold;
+	font-size: larger;
+}
+
+table th {
+	text-align: center;
+}
+
+#discount, #recipient_info, #payment_info, #agreement {
+	border-style: none;
+	border-left-color: #fff;
+	border-right-color: #fff;
+	border-bottom-color: #ebebeb;
+}
+
+
+table td {
+	position: relative;
+}
+
+table td>p {
+	position: absolute;
+	transform: translateY(-50%);
+	top: 50%;
+	left: 18px;
+}
+
+table td>span{
+	position: absolute;
+	transform: translateY(-50%);
+	top: 50%;
+	left: 42%;
+}
+
+#pay_button{
+/* border: 1px solid #000; */
+width: 200px;
+height: 70px;
+font-size: 1.7em;
+padding: 0px;
+}
+
+table td.use_po {
+	width: 200px;
+}
+
+#back_color{
+background-color: #f2f2f2;
+}
+
+input[type=text]{
+width: 170px;
+}
+
+#agree_detail_btn{
+text-decoration: underline;
+}

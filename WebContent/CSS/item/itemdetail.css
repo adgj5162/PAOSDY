@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+
+
+.detaila{height: 30px;
+      margin-top:20px;}
+      
+      
+.bb{margin-top:30px;}
+
+.cc{margin-top:30px;}
+
+.option{height: 40px;}
+
+.itemOrder{border-collapse: separate;
+         border-spacing: 0 15px;}
+
+
+.itembtn{height: 80px;
+      width:  150px;
+      font-size:1.4em !important;}
+
+.itemName{font-size: 30px;
+      border:bold;}
+
+.itemImg{padding-right: 40px;}
+
+.amountText{width:45px !important;}
+
+.amountBtn{height: 100%;
+         width: 100%;
+         border: 0;
+         }
+         
+.amountInput>input{display: inline-block;
+            height: 30px;
+         width: 30px;
+         margin:0px;
+         }         
+         
+         
+.prebasket>tr>td{width:50px;
+         font-size:20px;}         
+         
+         
+.pageNum{margin-left:8px;
+      font-size: 1.3em;
+      font-weight: 1.3em;}         
+
+

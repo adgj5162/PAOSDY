@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+
+.infot{ border-collapse: separate;
+	border-spacing: 0px 10px !important;}
+
+th{width: 3%;}
+
+
+tr>*{font-size: 20px;}
+
+.ce>fieldset>legend{font-size: 30px;
+					font-weight: 400;}
+
+.form-inline>label{width:30%;
+				   font-size: 18px;}
+
+.ce{position: relative;
+	top:25%;}
+
+
+   
+
+
+
+
+
+

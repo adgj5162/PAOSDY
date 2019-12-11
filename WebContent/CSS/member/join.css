@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+
+.field{	width:90%;
+		margin-top: 20px;}
+
+.field>legend{font-size: 25px;
+			font-weight: bold;}
+
+.gg{height: 80%;}
+
+.form-inline>input[type="text"]{width:30%;}
+.form-inline>input[type="password"]{width:30%;}
+
+.addr{width:45% !important;}
+
+.filebox input[type="file"] { position: absolute; 
+								width: 1px; 
+	/* 파일 필드 숨기기 */ 			height: 1px; 
+								padding: 0; 
+								margin: -1px; 
+								overflow: hidden; 
+								clip:rect(0,0,0,0);
+								 border: 0; }
+
+.submit{position:relative;
+		left: 44%;
+		}
+
+
+
+
+
+

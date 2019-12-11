@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+
+em{
+font-style: normal;
+padding: 10px;
+}
+
+div.col-md-10{
+font-size: larger;
+text-align: center;
+height: 200px;
+float: left;
+padding-top: 40px;
+padding-left: 240px;
+}
+
+div.basket_button{
+height: 100px;
+float: right;
+}
+
+em#total.total, em#deliver_fee.deliver_fee{
+font-weight: bold;
+font-size: x-large;
+}
+
+em#total_sum.total_sum{
+font-weight: bold;
+font-size: x-large;
+color: red;}
+
+table{
+text-align: center;}
+
+table td{
+position: relative;}
+
+table td.qwer>div{
+position: absolute;
+transform: translateY(-50%);
+top: 50%;
+left: 29%;
+height: 40px;}
+
+table td.asdf>div{
+position: absolute;
+transform: translateY(-50%);
+top: 50%;
+left: 16%;}
+
+table td>p{
+position: absolute;
+transform: translateY(-50%);
+top: 50%;
+left: 29%;}
+
+table tr.basket_th>td{
+font-weight: bold;
+}
+
+table td.qwer{
+width: 282px;
+}
+
+table td.asdf{
+width: 112px;
+text-align: center;}
+
+table .basket_delete{
+text-align: center;
+padding: 10px;
+}
+
+
+
+
+
+
+
+

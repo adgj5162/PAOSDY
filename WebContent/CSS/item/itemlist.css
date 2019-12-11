@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+table.list{width:100%;}
+
+.itemLL{margin: 30px 20px;}
+
+.section{height: 70vh;}
+
+table th{
+text-align: center;
+}
+
+table td{
+position: relative;
+text-align: center;
+}
+
+table td>p{
+position: absolute;
+transform: translateY(-50%);
+top: 50%;
+text-align: center;
+width: 330px;
+}
+
+

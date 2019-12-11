@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+
+.ReviewTitle{font-size: 20px;
+			font-weight: bold;
+			margin: 20px 0px;
+			}
+
+#point{width:80px;}
+
+.hr1{border-width: 3px;}
+.hr2{border-width: 2px;}

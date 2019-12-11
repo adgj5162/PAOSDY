@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+table td.www{
+	width: 100px;
+}
+
+table th, table td{
+text-align: center;
+}
+
+.list_bottom{
+float: left;
+}

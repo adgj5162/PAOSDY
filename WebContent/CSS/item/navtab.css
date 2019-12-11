@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+.nt>li>a{font-size: 20px;
+		font-weight: bold;}
+
+.nt{height: 50px;}
+
+.nav-item{margin-left: 5%;}
+.nav-order{margin-left: 5%;}
+
+tr>td:first-of-type{width:7%;}
+
+
+

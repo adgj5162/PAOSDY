@@ -1,0 +1,153 @@
+@CHARSET "UTF-8";
+
+.header {
+	height: 10%;
+	margin: 0px;
+	padding: 0px;
+	z-index: 2;
+	position: fixed;
+  	top: 0;
+  	width: 100%;
+}
+
+.section {
+	height: 700px;
+	width: 100%;
+	position: relative;
+	padding: 0;
+}
+
+.dii>h1 {
+	font-size: 30px;
+	color: #fff;
+	position: absolute;
+	top: 80%;
+	font-weight: bold;
+}
+
+.di1, .di2, .di3, .di4 {
+	height: 75vh;
+}
+
+.mainImg {
+	height: 105%;
+	background-repeat: none;
+}
+
+#memberJoin {
+	position: relative;
+	top: 20%;
+	left: 10%;
+}
+
+/* 여기 밑에는 headerpart */
+ul {
+	list-style: none;
+}
+
+#login {
+	margin-top: 8px;
+	margin-left: 30px;
+	position: absolute;
+	right: 0;
+}
+
+.snl {
+	border: 1px solid #b2b2b2;
+}
+
+#login>li {
+	float: left;
+	font-size: 15px;
+	margin: 0px 8px;
+}
+
+.nav {
+	height: 45px;
+	margin-top: 14px;
+	border-top: 1px solid #b2b2b2;
+}
+
+.Tsearch {
+	height: 170%;
+	position: absolute;
+	left: 0px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.2em;
+	border: none;
+}
+
+.searchBar {
+	padding: 0px;
+	height: 20px;
+}
+
+.searchButton {
+	background-image: url('../../img/search-line.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	width: 32px;
+	height: 32px;
+	margin-top: 1px;
+}
+
+#Mnav {
+	height: 45px;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+}
+
+#Mnav>li {
+	float: left;
+	margin: 6px 43px;
+    font-size: 25px;
+
+}
+
+.dropdown-item {
+	margin: 10px auto;
+	font-size: 20px;
+}
+
+.footer {
+	height: 10%;
+	bottom: 0;
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+}
+
+.logo{min-width:260px;
+   z-index:9999;
+   }
+
+.cart{position: relative;
+   top:25px;
+   left:15px;}
+   
+.cartarea{width:10px;
+   float:left;}   
+   
+   
+@media(max-width:992px){
+
+#Mnav>li {
+   float: left;
+   margin: 10px 30px;
+   font-size: 25px;
+}
+
+
+.smbimg{
+   height:100%;
+   width:100%;
+   padding:0px;
+   margin:0px;
+}
+
